@@ -1,0 +1,183 @@
+
+        body{
+            background: url('7.jpg');
+
+        }
+    
+        img {
+            height: 100px;
+            width: 100px;
+            border: 5px solid black;
+            border-radius: 8px;
+            margin: 20px;
+
+        }
+
+        .header {
+            display: flex;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            /* position: sticky; */
+            /* it is not work */
+
+
+
+
+        }
+
+        .home {
+            display: flex;
+            margin: 20px;
+            height: 50px;
+            width: 500px;
+            background-color: grey;
+            color: hotpink;
+            border: 10px solid black;
+            border-radius: 23px;
+
+
+
+
+        }
+
+        .home li {
+            margin: 10px;
+            padding: 10px;
+            list-style: none;
+            background-color: lavender;
+            border: 3px solid black;
+            border-radius: 9px;
+            display: flex;
+            text-decoration: none;
+
+
+
+
+
+
+        }
+
+        .home li a {
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home li a:hover {
+
+            color: red;
+        }
+
+        .btn {
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            right: 40px;
+
+            padding: 10px;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 5px;
+            background: burlywood;
+            color: coral;
+
+        }
+        .section{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+        }
+        h1{
+            height: 100px;
+            width: 300px;
+            border: 5px solid rgb(114,7,7); 
+            background-color:white;
+            color:black;
+            border-radius: 23px;
+        }
+        h2{
+            height: 270px;
+            width: 350px;
+            border: 5px solid rgb(114, 7, 7);
+            border-radius: 23px;
+            background-color: black;
+            color: snow;
+        }
+ p{
+              font-size: 35px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frm{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.rvrs{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 23px;
+    padding: 5px;
+    margin: 5px;
+
+    }
+    .form{
+
+        height: 300px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+    #btn{
+        border: 2px solid seagreen;
+        border-radius: 3px;
+        padding: auto;
+        margin: auto;
+    }
+    .saqib{
+        height: 150px;
+        width: 150px;
+        border: 8px solid white;
+        border-radius: 23px;
+       
+    }
+    .pg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+    #saq{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        
+    }
